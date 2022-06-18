@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WiProtect.App.DepsX.Contracts.ForConfigs;
 
-namespace WiProtect.App.DepsX.Impl.ForConfigs;
+namespace DepsX.Impl.ForConfigs;
 
 public class JsonConfigsProvider : IConfigsProvider
 {

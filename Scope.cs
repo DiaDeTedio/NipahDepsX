@@ -1,4 +1,4 @@
-﻿namespace WiProtect.App.DepsX;
+﻿namespace DepsX;
 
 public class Scope : IDisposable
 {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WiProtect.App.DepsX;
+namespace DepsX;
 
 public static class Deps
 {

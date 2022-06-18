@@ -1,6 +1,4 @@
-﻿using Org.Json;
-
-namespace WiProtect.App.DepsX;
+﻿namespace DepsX;
 
 public abstract partial class DepsContainer
 {

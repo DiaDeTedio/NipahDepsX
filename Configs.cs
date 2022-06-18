@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Options;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -8,7 +7,7 @@ using System.Threading.Tasks;
 using WiProtect.App.DepsX.Contracts.ForConfigs;
 using WiProtect.App.DepsX.Impl.ForConfigs;
 
-namespace WiProtect.App.DepsX;
+namespace DepsX;
 
 public static class Configs
 {
