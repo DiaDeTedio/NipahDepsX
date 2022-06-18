@@ -4,8 +4,8 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using WiProtect.App.DepsX.Contracts.ForConfigs;
-using WiProtect.App.DepsX.Impl.ForConfigs;
+using DepsX.Contracts.ForConfigs;
+using DepsX.Impl.ForConfigs;
 
 namespace DepsX;
 
@@ -60,6 +60,6 @@ public static class Configs
 
     public static void InjectConfigs<T>(string section) where T : class
     {
-        Deps.InjectSingleton<IOptions<T>, IOptions<T>>(() => Options.Create(GetConfigs<T>(section)));
+        Deps.InjectSingleton<T, T>(() => GetConfigs<T>(section));
     }
 }
